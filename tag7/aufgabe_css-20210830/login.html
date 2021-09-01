@@ -1,0 +1,170 @@
+
+<html>
+  <head>
+    <title>Reiseb&uuml;ro: Benutzeranmeldung</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+  </head>
+  <body>
+    <table border="0" width="750" align="center">
+    <tr>
+    <td>
+    &nbsp;<br /><img src="logo.gif" width="480" height="80" alt="EuroCityTravel" /><br />
+    <!-- Einfache Navigationsleiste -->
+    [
+    <a href="index.html">Home</a>
+    |
+    <a href="auskunft.html">Reisesuche</a>
+    |
+    <a href="info.html">Touristeninfo</a>
+    |
+    Anmeldung
+    |
+    <a href="gast.html">G&auml;stebuch</a>
+    |
+    <a href="forum.html">Forum</a>
+    ]
+    <!-- Ende der Navigationsleiste> -->
+    <h2>Kundenanmeldung</h2>
+
+    Bitte geben Sie hier Ihre E-Mail-Adresse ein, falls Sie bereits registriert sind:
+    <br />
+    <form action="testlog.php" method="post">
+      <input type="hidden" name="b" value="<?php echo ($buchnr); ?>" />
+      <input type="hidden" name="bt" value="<?php echo ($buchtxt); ?>" />
+      <input type="text" name="mail" size="50" maxlength="50" />
+      <input type="submit" value="Anmelden" />
+      <br />
+
+      <span style="font-size: 10px">Anmerkung: Hier fehlt zur Praxistauglichkeit eine Passwort&uuml;berpr&uuml;fung.</span>
+    </form>
+    <h2>Neuer Kunde</h2>
+    Bitte geben Sie hier Ihre Daten ein, falls Sie ein neuer Kunde sind (die mit * markierten Felder sind Pflichtangaben):
+
+    <form action="newuser.php" method="post">
+      <input type="hidden" name="b" value="<?php echo ($buchnr); ?>" />
+      <input type="hidden" name="bt" value="<?php echo ($buchtxt); ?>" />
+      <table border="0" cellpadding="4">
+        <tr>
+          <td>*</td>
+          <td>E-Mail:</td>
+          <td valign="top"><input type="text" name="mail" size="50" /></td>
+        </tr>
+        <tr>
+          <td colspan="3"><span style="font-size: 10px">Dies wird Ihre Anmelde-ID.</span></td>
+        </tr>
+        <tr>
+          <td>*</td>
+          <td>Name:</td>
+          <td><input type="text" name="fname" size="50" /></td>
+        </tr>
+        <tr>
+          <td>*</td>
+          <td>Vorname:</td>
+          <td><input type="text" name="vname" size="50" /></td>
+        </tr>
+        <tr>
+          <td>*</td>
+          <td>Geburtsdatum:</td>
+          <td><?php datumswahl ("geb"); ?></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>Stra&szlig;e:</td>
+          <td><input type="text" name="str" size="50" /></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>Hausnummer:</td>
+          <td><input type="text" name="hausnr" size="10" /></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>Postleitzahl:</td>
+          <td><input type="text" name="plz" size="10" /></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>Wohnort:</td>
+          <td><input type="text" name="ort" size="50" /></td>
+        </tr>
+        <tr>
+          <td>*</td>
+          <td>Land:</td>
+          <td>
+            <select name="land" size="1">
+              <option value="0">[Bitte w&auml;hlen]</option>
+
+            </select>
+          </td>
+        <tr>
+          <td>&nbsp;</td>
+          <td>Telefon:</td>
+          <td><input type="text" name="tel" size="30" /></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td colspan="2">
+            <input type="submit" value="Eintragen" />
+            <input type="reset" value="Zur&uuml;cksetzen" />
+          </td>
+        </tr>
+      </table>
+    </form>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    &nbsp;
+  </td>
+  </tr>
+  </table>
+  </body>
+</html>
