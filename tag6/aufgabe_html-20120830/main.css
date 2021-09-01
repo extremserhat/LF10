@@ -1,0 +1,26 @@
+body {
+   background-color: #000066;  /* Blau */
+   color: #000066;
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+   font-size: 12px;
+   margin: 0px
+}
+
+td {
+   background-color: #3399CC;
+   color: #000066;
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+   font-size: 12px;
+   padding: 6px
+}
+
+a {
+   color: #003300;
+
+   text-decoration: none
+}
+
+
+
+
+   

@@ -1,0 +1,70 @@
+<html>
+  <head>
+  <meta charset="UTF-8">
+    <title>Reiseb&uuml;ro: Auswahl</title>
+  </head>
+  <body>
+    <h1>Reiseb&uuml;ro</h1>
+    
+    <!-- Einfache Navigationsleiste -->
+    [
+    <a href="index.html">Home</a>
+    |
+    Reisesuche
+    |
+    <a href="info.html">Touristeninfo</a>
+    |
+    <a href="login.html">Anmeldung</a>
+    |
+    <a href="gast.html">G&auml;stebuch</a>
+    |
+    <a href="forum.html">Forum</a>
+    ]
+    <!-- Ende der Navigationsleiste> -->
+    
+    <h2>Reiseauswahl</h2>
+
+    <form action="ergebnis.php" method="post">
+      <table border="0" cellpadding="4">
+      <tr>
+        <td valign="top">Abreiseort:</td>
+        <td>
+          <select name="start" size="1">
+            <option value="-1">[Bitte w&auml;hlen]</option>
+
+          </select><br />
+          <span style="font-size: 10px">Die meisten Flugangebote gehen von/nach K&ouml;ln/Bonn, einige auch von/nach Frankfurt oder D&uuml;sseldorf.</span>
+        </td>
+      </tr>
+      <tr>
+        <td>Zielort:</td>
+        <td>
+          <select name="ziel" size="1">
+            <option value="-1">[Bitte w&auml;hlen]</option>
+
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Abreisedatum:</td>
+        <td>Datum: </td>
+      </tr>
+      <tr>
+        <td>R&uuml;ckreisedatum:</td>
+        <td>Datum: </td>
+      </tr>
+      <tr>
+        <td>Mit Hotelangebot?</td>
+        <td>
+          <input type="radio" name="hotel" value="1" checked="checked" />ja
+          <input type="radio" name="hotel" value="0" />nein
+        </td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td><input type="submit" value="Anfrage senden" />
+      </tr>
+      </table>
+    </form>
+  </body>
+</html>
