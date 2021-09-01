@@ -1,0 +1,45 @@
+#box1 {
+    background-color: skyblue;
+	width: 200px;
+	/*min-height: 80px;*/
+	padding: 10px;
+	
+}
+#box2 {
+    background-color: yellow;
+	width: 15em;
+	margin: 10px;
+	padding: 10px;
+}
+#box3 {
+    background-color: limegreen;
+	width: 40%;
+	margin: 20px;
+	padding: 10px;
+}
+#box4 {
+	box-sizing: content-box;
+	width: 300px;
+	height: 200px;
+	padding: 30px;
+	margin: 50px 100px;
+	border: 20px solid #333;
+	background-color: limegreen; 
+}
+
+#box5 {
+	box-sizing: border-box;
+	width: 300px;
+	height: 200px;
+	padding: 30px;
+	margin: 50px 150px;
+	border: 20px solid #333;
+	background-color: yellow;
+}
+h1 {border:  4px inset red;}
+body {
+	background-color: silver;
+	background-image: url("kolibri.png");
+	background-repeat: repeat-x;
+	background-position: center;
+}
