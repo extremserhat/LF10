@@ -34,4 +34,3 @@ echo '<br> $divisor  :' . $divisor;
 echo '<br> $zahl     :' . $zahl;
 echo '<br> $quotient :' . $quotient;
 echo '<br>';
-?>

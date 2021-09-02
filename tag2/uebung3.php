@@ -1,6 +1,6 @@
 <?php
 $teilnehmer = 5;
-$teilnehmerinnen = 4;
+$teilnehmerinnen = 10;
 
 echo gettype($teilnehmer);
 
@@ -23,4 +23,6 @@ $a = '5';
 $b = '1.734';
 echo bcadd($a, $b) . '<br>';	// 6 Nachkommastellen werden abgeschnitten
 echo bcadd($a, $b, 4);  // 6.7340
+
+
 ?>

@@ -1,5 +1,5 @@
 <?php
-$aktion = date("H:i:s");
+	 $aktion = date("H:i:s");
 if ( empty ($_GET['vorname']) == TRUE 
 	 or
 	 empty ($_GET['nachname']) == TRUE
@@ -14,8 +14,8 @@ if ( empty ($_GET['vorname']) == TRUE
     <form action="affenformular2.php" method="get">
 
     <p>Ihr Vorname:
-    <input type="text" name="vorname" size="50"
-	<?php echo " value=$_GET['vorname']"; ?> />
+    <input type="text" name="vorname" size="50"/>
+	<?php echo " value=$_GET['vorname']"; ?> 
     </p>
 	
 	<?php
