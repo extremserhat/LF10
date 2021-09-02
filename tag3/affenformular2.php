@@ -18,6 +18,7 @@ if ( empty ($_GET['vorname']) == TRUE
 	<?php echo " value=$_GET['vorname']"; ?> />
     </p>
 	
+	/* kleiner test */ 
 	<?php
 	echo '
 	<p>Ihr Nachname:
