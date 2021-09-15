@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@stephen-riley/pcre2-wasm": "^1.2.4"
+  }
+}
