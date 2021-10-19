@@ -9,5 +9,7 @@
 > + XAMPP
 > + PHP
 
-##### + Diese waren so die Grund Elemente womit wir uns auseinander gesetzt haben. Ganz neu war in diesem Lernfeld PHP.
+##### Diese waren so die Grund Elemente womit wir uns auseinander gesetzt haben. Ganz neu war in diesem Lernfeld PHP.
+
+###### In diesem Lernfeld habe ich kombiniert auch mit <b>Lebenslauf in HTML</b> weiter gemacht um da die neuen Technicken auzu probieren.
 
